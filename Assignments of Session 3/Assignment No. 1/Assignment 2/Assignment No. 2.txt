@@ -1,0 +1,90 @@
+Assignment No. 2:
+
+Write about the difference between errors and bugs and describe the types of errors and bugs. Define them.
+
+In programming , errors are invitable.There are three main types of errors in JavaScript: syntax errors , logical errors and runtime errors.
+1.syntax errors
+2.logical errors
+3.runtime errors
+
+ 1.syntax error
+    syntax errors are occur when the code vialates the language's syntax rules , such as missing semicolons or using an incorrect keyword.
+
+    var 1name="Hajra";
+    console.log(1name);
+
+  2. logical errors are occur when the code does not produce the desired result.This type of errors is often coused by incorrect algorithm or flowed code design.
+
+      function multiplication(val1, val2) {
+      console.log(val1 + val2);
+    }
+     multiplication(2, 5);
+
+
+  3. runtime errors are occur when the code attempts to perform on operator that is not allowed , such as dividing by zero or accessing an undefined variables.
+
+      console.log("hello");
+      console.log(asa);runtime error
+      console.log("hello");
+      console.log("hello");
+
+
+Assignment No. 3:
+
+Explain what statements and expressions are in JavaScript and highlight the difference between them.
+
+statements : In the programming, a statement is a complete instruction that the computer can execute.statements are typically composed of keywords , operators  and value .
+
+Example : 
+     variable declarations
+     function calls 
+     conditional statement
+
+     var name = " Hajra"; this is statement
+     console.log(name) this is also statement
+
+Expressions : An expression ia a combination of values , vaeiables , operators , and function that are evaluated  to produce a value. 
+ Example :
+      arithmetic expression
+      logical expression
+      function calls
+
+      2+2; this is expression
+      3*4;  this is also expression
+
+Assignment No. 4:
+
+Define syntax in JavaScript or any other programming language, and also explain how to use comments in JavaScript and the different types of comments available.
+
+JavaScript comments can be used to explain JavaScript code, and to make it more readable.
+
+JavaScript comments can also be used to prevent execution, when testing alternative code.
+
+Single Line Comments
+Single line comments start with //.
+
+Any text between // and the end of the line will be ignored by JavaScript (will not be executed).
+
+This example uses a single-line comment before each code line:
+//console.log("hello")
+// Change heading:
+document.getElementById("myH").innerHTML = "My First Page";
+
+// Change paragraph:
+document.getElementById("myP").innerHTML = "My first paragraph.";
+
+Multi-line Comments
+Multi-line comments start with /* and end with */.
+
+Any text between /* and */ will be ignored by JavaScript.
+
+This example uses a multi-line comment (a comment block) to explain the code:
+
+Example
+
+/*
+The code below will change
+the heading with id = "myH"
+and the paragraph with id = "myP"
+in my web page:
+*/
